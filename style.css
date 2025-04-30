@@ -2046,14 +2046,6 @@ textarea.w-input, textarea.w-select {
   display: grid;
 }
 
-.w-code-component > * {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 :root {
   --background: #42a341;
   --letters: white;
@@ -3268,7 +3260,8 @@ h5 {
 }
 
 .text-block-14 {
-  color: #1b1b1b;
+  color: var(--letters);
+  background-color: #d52f2f;
   border: 2px solid #000;
   border-radius: 8px;
   max-width: 30ch;
@@ -3341,6 +3334,10 @@ h5 {
   font-size: 2rem;
   font-weight: 700;
   line-height: 2rem;
+}
+
+.text-span-5, .text-span-6 {
+  background-color: #b33232;
 }
 
 @media screen and (min-width: 1440px) {
@@ -3870,6 +3867,10 @@ h5 {
     padding: .5rem .375rem;
     font-size: 1.5625rem;
     line-height: 1.2rem;
+  }
+
+  .text-span.eng {
+    line-height: 1.6rem;
   }
 
   .title-text-holder {
