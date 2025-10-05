@@ -295,7 +295,6 @@ pre.w-code-block code {
 }
 
 
-
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
   font-weight: bold;
@@ -3106,6 +3105,7 @@ h5 {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   justify-content: space-around;
+  margin-top: auto;
   display: flex;
 }
 
@@ -3155,6 +3155,7 @@ h5 {
 
 .text-block-13 {
   letter-spacing: 2px;
+  text-transform: uppercase;
   background-color: #181414;
   border: 2px solid #0000;
   border-radius: 50px;
